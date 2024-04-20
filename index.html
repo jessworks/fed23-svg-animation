@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="svg">
+        <svg id="text" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 1920 1080">
+            <defs>
+              <style>
+                .cls-1 {
+                  fill: #000;
+                  stroke-width: 0px;
+                }
+              </style>
+            </defs>
+            <path class="cls-1" d="M828.63,496.32c20.44,0,38.49,4.69,54.17,14.07,15.68,9.38,23.52,20.2,23.52,32.46s-7.78,21.72-23.35,30.07c-15.57,8.34-34.29,12.51-56.19,12.51s-40.82-4.35-56.44-13.06-23.43-19.22-23.43-31.54,7.99-22.75,23.98-31.45c15.98-8.71,35.23-13.06,57.74-13.06ZM826.11,513.2c-18.14,0-27.21,9.46-27.21,28.39s9.29,26.96,27.88,26.96,27.04-8.96,27.04-26.88c0-18.98-9.24-28.47-27.71-28.47Z"/>
+            
+            <path class="cls-1" d="M987.2,460.63v78.95l35.53-20.74-27.71-19.99h115.9l-56.86,31.49,34.1,29.65,32.5,21.08h-108.59l20.41-17.22-17.55-16.71-27.71,14.78,22.17,19.15h-102.46l32.5-21.08v-76.43l-32.5-21,80.29-1.93Z"/>
+          </svg>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+
+    gsap.to('.cls-1', { fill: '#e305ab', duration: 1, repeat: -1, yoyo: true});
+    
+</body>
+</html>
